@@ -416,7 +416,7 @@ dispatch_semaphore_signal(_lock);
     if (needFixJoinedEmojiBug) {
         [((NSMutableAttributedString *)text) yy_setClearColorToJoinedEmoji];
     }
-    
+
     layout = [[YYTextLayout alloc] _init];
     layout.text = text;
     layout.container = container;
