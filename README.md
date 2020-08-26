@@ -523,7 +523,7 @@ Installation
     * CoreText
     * QuartzCore
     * Accelerate
-    * MobileCoreServices
+    * CoreServices
 4. Import `YYText.h`.
 
 
@@ -1070,7 +1070,7 @@ debugOptions.CGGlyphBorderColor = [UIColor colorWithRed:1.000 green:0.524 blue:0
     * CoreText
     * QuartzCore
     * Accelerate
-    * MobileCoreServices
+    * CoreServices
 4. 导入 `YYText.h`。
 
 

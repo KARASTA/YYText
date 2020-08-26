@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C7DC7CE24F627B6004E32F4 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7DC7CD24F627B6004E32F4 /* CoreServices.framework */; };
 		D91054861F3735D20007F224 /* Animated image support.txt in Resources */ = {isa = PBXBuildFile; fileRef = D910547B1F3735D20007F224 /* Animated image support.txt */; };
 		D91054871F3735D20007F224 /* YYAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D910547D1F3735D20007F224 /* YYAnimatedImageView.m */; };
 		D91054881F3735D20007F224 /* YYFrameImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D910547F1F3735D20007F224 /* YYFrameImage.m */; };
@@ -72,7 +73,6 @@
 		D91055371F3737540007F224 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D91055361F3737540007F224 /* CoreText.framework */; };
 		D91055391F37375A0007F224 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D91055381F37375A0007F224 /* Accelerate.framework */; };
 		D910553B1F37375F0007F224 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D910553A1F37375F0007F224 /* ImageIO.framework */; };
-		D910553D1F3737640007F224 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D910553C1F3737640007F224 /* MobileCoreServices.framework */; };
 		D910553F1F3737670007F224 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D910553E1F3737670007F224 /* SystemConfiguration.framework */; };
 		D91055411F37376C0007F224 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D91055401F37376C0007F224 /* libz.tbd */; };
 		D94EE9961F37304200F37AD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D94EE9941F37304200F37AD6 /* Main.storyboard */; };
@@ -82,6 +82,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C7DC7CD24F627B6004E32F4 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
 		D910547B1F3735D20007F224 /* Animated image support.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Animated image support.txt"; sourceTree = "<group>"; };
 		D910547C1F3735D20007F224 /* YYAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYAnimatedImageView.h; sourceTree = "<group>"; };
 		D910547D1F3735D20007F224 /* YYAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYAnimatedImageView.m; sourceTree = "<group>"; };
@@ -203,7 +204,6 @@
 		D91055361F3737540007F224 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		D91055381F37375A0007F224 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		D910553A1F37375F0007F224 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
-		D910553C1F3737640007F224 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		D910553E1F3737670007F224 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		D91055401F37376C0007F224 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		D94EE98B1F37304200F37AD6 /* YYTextDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYTextDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -221,12 +221,12 @@
 			files = (
 				D91055411F37376C0007F224 /* libz.tbd in Frameworks */,
 				D910553F1F3737670007F224 /* SystemConfiguration.framework in Frameworks */,
-				D910553D1F3737640007F224 /* MobileCoreServices.framework in Frameworks */,
 				D910553B1F37375F0007F224 /* ImageIO.framework in Frameworks */,
 				D91055391F37375A0007F224 /* Accelerate.framework in Frameworks */,
 				D91055371F3737540007F224 /* CoreText.framework in Frameworks */,
 				D91055351F37374F0007F224 /* QuartzCore.framework in Frameworks */,
 				D91055331F37374B0007F224 /* UIKit.framework in Frameworks */,
+				5C7DC7CE24F627B6004E32F4 /* CoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,9 +385,9 @@
 		D91055311F37374B0007F224 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5C7DC7CD24F627B6004E32F4 /* CoreServices.framework */,
 				D91055401F37376C0007F224 /* libz.tbd */,
 				D910553E1F3737670007F224 /* SystemConfiguration.framework */,
-				D910553C1F3737640007F224 /* MobileCoreServices.framework */,
 				D910553A1F37375F0007F224 /* ImageIO.framework */,
 				D91055381F37375A0007F224 /* Accelerate.framework */,
 				D91055361F3737540007F224 /* CoreText.framework */,
