@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D995E6BA1F372EC800EBEE44 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D918BFE71F372EA000106E14 /* MobileCoreServices.framework */; };
+		5C7DC7CC24F6235B004E32F4 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7DC7CB24F6235B004E32F4 /* CoreServices.framework */; };
 		D995E6BB1F372EC800EBEE44 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D918BFE61F372E9B00106E14 /* Accelerate.framework */; };
 		D995E6BC1F372EC800EBEE44 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D918BFE51F372E9800106E14 /* CoreText.framework */; };
 		D995E6BD1F372EC800EBEE44 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D918BFE41F372E7A00106E14 /* QuartzCore.framework */; };
@@ -65,6 +65,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C7DC7CB24F6235B004E32F4 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		D918BFD61F372E3000106E14 /* YYText.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYText.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D918BFDA1F372E3000106E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D918BFE21F372E6800106E14 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
@@ -72,7 +73,6 @@
 		D918BFE41F372E7A00106E14 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		D918BFE51F372E9800106E14 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		D918BFE61F372E9B00106E14 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
-		D918BFE71F372EA000106E14 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		D995E6C21F372ED100EBEE44 /* YYTextContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextContainerView.h; sourceTree = "<group>"; };
 		D995E6C31F372ED100EBEE44 /* YYTextContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextContainerView.m; sourceTree = "<group>"; };
 		D995E6C41F372ED100EBEE44 /* YYTextDebugOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextDebugOption.h; sourceTree = "<group>"; };
@@ -129,11 +129,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D995E6BA1F372EC800EBEE44 /* MobileCoreServices.framework in Frameworks */,
 				D995E6BB1F372EC800EBEE44 /* Accelerate.framework in Frameworks */,
 				D995E6BC1F372EC800EBEE44 /* CoreText.framework in Frameworks */,
 				D995E6BD1F372EC800EBEE44 /* QuartzCore.framework in Frameworks */,
 				D995E6BE1F372EC800EBEE44 /* UIKit.framework in Frameworks */,
+				5C7DC7CC24F6235B004E32F4 /* CoreServices.framework in Frameworks */,
 				D995E6BF1F372EC800EBEE44 /* CoreFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -161,8 +161,8 @@
 		D918BFE11F372E6800106E14 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5C7DC7CB24F6235B004E32F4 /* CoreServices.framework */,
 				D918BFDA1F372E3000106E14 /* Info.plist */,
-				D918BFE71F372EA000106E14 /* MobileCoreServices.framework */,
 				D918BFE61F372E9B00106E14 /* Accelerate.framework */,
 				D918BFE51F372E9800106E14 /* CoreText.framework */,
 				D918BFE41F372E7A00106E14 /* QuartzCore.framework */,
